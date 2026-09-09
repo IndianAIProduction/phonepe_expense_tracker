@@ -8,3 +8,116 @@
 2026-09-04 17:31:33,803 - INFO - Execution of  parse_transaction took 0.00047959999938029796 seconds.
 2026-09-04 17:31:33,803 - INFO - Execution of  generate_summary took 0.0007116000051610172 seconds.
 2026-09-04 17:31:33,803 - INFO - Data written to data\summary.json
+2026-09-09 14:39:04,203 - INFO - Initializing PhonePe Expence Tracker....
+2026-09-09 14:39:04,203 - ERROR - Skipped 8 transaction due to error: not enough values to unpack (expected 3, got 2)
+2026-09-09 14:39:04,203 - INFO - Execution of  parse_transaction took 0.000791100028436631 seconds.
+2026-09-09 14:39:04,205 - INFO - Execution of  generate_summary took 0.0011208000360056758 seconds.
+2026-09-09 14:39:04,205 - INFO - Data written to data\summary.json
+2026-09-09 14:51:44,729 - INFO - Initializing PhonePe Expence Tracker....
+2026-09-09 14:51:44,729 - ERROR - Skipped 8 transaction due to error: not enough values to unpack (expected 3, got 2)
+2026-09-09 14:51:44,729 - INFO - Execution of  parse_transaction took 0.0004311999655328691 seconds.
+2026-09-09 14:51:44,729 - INFO - Execution of  generate_summary took 0.0005699999746866524 seconds.
+2026-09-09 14:51:44,729 - INFO - Data written to data\summary.json
+[2026-09-09 16:13:26] [DEBUG] [TransactionParser]: Line 5 skipped: Insufficient columns (2/3) in line: '2026-08-09, Invalid Line Without Comma'
+[2026-09-09 16:13:26] [INFO] [TransactionParser]: Successfully parsed 3 transactions from text input
+[2026-09-09 16:13:26] [INFO] [TransactionParser]: Successfully parsed 5 transactions from text input
+2026-09-09 16:16:52,364 - INFO - Initializing PhonePe Expence Tracker....
+2026-09-09 16:16:52,365 - ERROR - Skipped 8 transaction due to error: not enough values to unpack (expected 3, got 2)
+2026-09-09 16:16:52,365 - INFO - Execution of  parse_transaction took 0.0006211000145412982 seconds.
+2026-09-09 16:16:52,365 - INFO - Execution of  generate_summary took 0.0010315999970771372 seconds.
+2026-09-09 16:16:52,366 - INFO - Data written to data\summary.json
+[2026-09-09 16:17:58] [DEBUG] [TransactionParser]: Line 5 skipped: Insufficient columns (2/3) in line: '2026-08-09, Invalid Line Without Comma'
+[2026-09-09 16:17:58] [INFO] [TransactionParser]: Successfully parsed 3 transactions from text input
+[2026-09-09 16:17:58] [INFO] [TransactionParser]: Successfully parsed 5 transactions from text input
+[2026-09-09 16:29:41] [INFO] [DesktopMain]: Initializing PhonePe Expense Tracker Desktop App...
+[2026-09-09 16:29:41] [INFO] [DesktopMain]: Running in PRODUCTION mode with static file: A:\Indian_AI_Production_5\phonepe_expense_tracker\backend\app\dist\index.html
+[2026-09-09 16:35:02] [DEBUG] [TransactionParser]: Line 5 skipped: Insufficient columns (2/3) in line: '2026-08-09, Invalid Line Without Comma'
+[2026-09-09 16:35:02] [INFO] [TransactionParser]: Successfully parsed 3 transactions from text input
+[2026-09-09 16:35:02] [INFO] [TransactionParser]: Successfully parsed 5 transactions from text input
+[2026-09-09 16:36:23] [INFO] [DesktopMain]: Initializing PhonePe Expense Tracker Desktop App...
+[2026-09-09 16:36:23] [INFO] [DesktopMain]: Running in PRODUCTION mode with local server: http://127.0.0.1:54742
+[2026-09-09 16:38:38] [INFO] [DesktopMain]: Initializing PhonePe Expense Tracker Desktop App...
+[2026-09-09 16:38:38] [INFO] [DesktopMain]: Running in DEV mode with URL: http://localhost:5173
+[2026-09-09 16:39:10] [INFO] [DesktopMain]: Initializing PhonePe Expense Tracker Desktop App...
+[2026-09-09 16:39:10] [INFO] [DesktopMain]: Running in PRODUCTION mode with local server: http://127.0.0.1:55589
+[2026-09-09 16:39:12] [INFO] [DesktopBridge]: Loading demo transaction data
+[2026-09-09 16:39:12] [DEBUG] [TransactionParser]: Line 9 skipped: Insufficient columns (2/3) in line: '2026-08-09, Invalid Line Without Comma'
+[2026-09-09 16:39:12] [INFO] [TransactionParser]: Successfully parsed 24 transactions from text input
+[2026-09-09 16:39:22] [DEBUG] [TransactionParser]: Line 5 skipped: Insufficient columns (2/3) in line: '2026-08-09, Invalid Line Without Comma'
+[2026-09-09 16:39:22] [INFO] [TransactionParser]: Successfully parsed 3 transactions from text input
+[2026-09-09 16:39:22] [INFO] [TransactionParser]: Successfully parsed 5 transactions from text input
+[2026-09-09 16:40:05] [INFO] [DesktopMain]: Initializing PhonePe Expense Tracker Desktop App...
+[2026-09-09 16:40:05] [INFO] [DesktopMain]: Running in PRODUCTION mode with local server: http://127.0.0.1:53148
+[2026-09-09 16:41:11] [INFO] [DesktopBridge]: Analyzing statement file: C:\Users\HP\Downloads\expense_tracker_august_2026 (1).txt
+[2026-09-09 16:41:11] [DEBUG] [TransactionParser]: Line 9 skipped: Insufficient columns (2/3) in line: '2026-08-09, Invalid Line Without Comma'
+[2026-09-09 16:41:11] [INFO] [TransactionParser]: Successfully parsed 30 transactions from text input
+[2026-09-09 16:44:27] [INFO] [DesktopBridge]: Loading demo transaction data
+[2026-09-09 16:44:27] [DEBUG] [TransactionParser]: Line 9 skipped: Insufficient columns (2/3) in line: '2026-08-09, Invalid Line Without Comma'
+[2026-09-09 16:44:27] [INFO] [TransactionParser]: Successfully parsed 24 transactions from text input
+[2026-09-09 16:44:29] [INFO] [DesktopBridge]: Loading demo transaction data
+[2026-09-09 16:44:29] [DEBUG] [TransactionParser]: Line 9 skipped: Insufficient columns (2/3) in line: '2026-08-09, Invalid Line Without Comma'
+[2026-09-09 16:44:29] [INFO] [TransactionParser]: Successfully parsed 24 transactions from text input
+[2026-09-09 16:44:30] [INFO] [DesktopBridge]: Loading demo transaction data
+[2026-09-09 16:44:30] [DEBUG] [TransactionParser]: Line 9 skipped: Insufficient columns (2/3) in line: '2026-08-09, Invalid Line Without Comma'
+[2026-09-09 16:44:30] [INFO] [TransactionParser]: Successfully parsed 24 transactions from text input
+[2026-09-09 16:44:44] [INFO] [DesktopBridge]: Loading demo transaction data
+[2026-09-09 16:44:44] [DEBUG] [TransactionParser]: Line 9 skipped: Insufficient columns (2/3) in line: '2026-08-09, Invalid Line Without Comma'
+[2026-09-09 16:44:44] [INFO] [TransactionParser]: Successfully parsed 24 transactions from text input
+[2026-09-09 16:44:56] [INFO] [DesktopBridge]: Loading demo transaction data
+[2026-09-09 16:44:56] [DEBUG] [TransactionParser]: Line 9 skipped: Insufficient columns (2/3) in line: '2026-08-09, Invalid Line Without Comma'
+[2026-09-09 16:44:56] [INFO] [TransactionParser]: Successfully parsed 24 transactions from text input
+[2026-09-09 16:46:58] [INFO] [DesktopMain]: Initializing PhonePe Expense Tracker Desktop App...
+[2026-09-09 16:46:58] [INFO] [DesktopMain]: Running in PRODUCTION mode with local server: http://127.0.0.1:57813
+[2026-09-09 16:46:59] [INFO] [DesktopBridge]: Loading demo transaction data
+[2026-09-09 16:46:59] [DEBUG] [TransactionParser]: Line 9 skipped: Insufficient columns (2/3) in line: '2026-08-09, Invalid Line Without Comma'
+[2026-09-09 16:46:59] [INFO] [TransactionParser]: Successfully parsed 24 transactions from text input
+[2026-09-09 16:47:27] [INFO] [DesktopMain]: Initializing PhonePe Expense Tracker Desktop App...
+[2026-09-09 16:47:27] [INFO] [DesktopMain]: Running in PRODUCTION mode with local server: http://127.0.0.1:51170
+[2026-09-09 16:47:29] [INFO] [DesktopBridge]: Loading demo transaction data
+[2026-09-09 16:47:29] [DEBUG] [TransactionParser]: Line 9 skipped: Insufficient columns (2/3) in line: '2026-08-09, Invalid Line Without Comma'
+[2026-09-09 16:47:29] [INFO] [TransactionParser]: Successfully parsed 24 transactions from text input
+[2026-09-09 16:49:50] [DEBUG] [TransactionParser]: Line 5 skipped: Insufficient columns (2/3) in line: '2026-08-09, Invalid Line Without Comma'
+[2026-09-09 16:49:50] [INFO] [TransactionParser]: Successfully parsed 3 transactions from text input
+[2026-09-09 16:49:50] [INFO] [TransactionParser]: Successfully parsed 5 transactions from text input
+[2026-09-09 16:50:12] [INFO] [DesktopMain]: Initializing PhonePe Expense Tracker Desktop App...
+[2026-09-09 16:50:12] [INFO] [DesktopMain]: Running in PRODUCTION mode with local server: http://127.0.0.1:52528
+[2026-09-09 16:50:20] [INFO] [DesktopBridge]: Loading demo transaction data
+[2026-09-09 16:50:20] [DEBUG] [TransactionParser]: Line 9 skipped: Insufficient columns (2/3) in line: '2026-08-09, Invalid Line Without Comma'
+[2026-09-09 16:50:20] [INFO] [TransactionParser]: Successfully parsed 24 transactions from text input
+[2026-09-09 16:52:35] [DEBUG] [TransactionParser]: Line 5 skipped: Insufficient columns (2/3) in line: '2026-08-09, Invalid Line Without Comma'
+[2026-09-09 16:52:35] [INFO] [TransactionParser]: Successfully parsed 3 transactions from text input
+[2026-09-09 16:52:35] [INFO] [TransactionParser]: Successfully parsed 5 transactions from text input
+[2026-09-09 16:52:50] [INFO] [DesktopMain]: Initializing PhonePe Expense Tracker Desktop App...
+[2026-09-09 16:52:50] [INFO] [DesktopMain]: Running in PRODUCTION mode with local server: http://127.0.0.1:57480
+[2026-09-09 16:53:24] [INFO] [DesktopBridge]: Loading demo transaction data
+[2026-09-09 16:53:24] [DEBUG] [TransactionParser]: Line 9 skipped: Insufficient columns (2/3) in line: '2026-08-09, Invalid Line Without Comma'
+[2026-09-09 16:53:24] [INFO] [TransactionParser]: Successfully parsed 24 transactions from text input
+[2026-09-09 16:58:24] [INFO] [CLI]: Initializing PhonePe Expense Tracker CLI....
+[2026-09-09 16:58:24] [DEBUG] [TransactionParser]: Line 9 skipped: Insufficient columns (2/3) in line: '2026-08-09, Invalid Line Without Comma'
+[2026-09-09 16:58:24] [INFO] [TransactionParser]: Successfully parsed 24 transactions from text input
+[2026-09-09 16:58:24] [INFO] [CLI]: Summary data written to A:\Indian_AI_Production_5\phonepe_expense_tracker\data\summary.json
+[2026-09-09 16:58:30] [DEBUG] [TransactionParser]: Line 5 skipped: Insufficient columns (2/3) in line: '2026-08-09, Invalid Line Without Comma'
+[2026-09-09 16:58:30] [INFO] [TransactionParser]: Successfully parsed 3 transactions from text input
+[2026-09-09 16:58:30] [INFO] [TransactionParser]: Successfully parsed 5 transactions from text input
+[2026-09-09 17:00:04] [DEBUG] [TransactionParser]: Line 5 skipped: Insufficient columns (2/3) in line: '2026-08-09, Invalid Line Without Comma'
+[2026-09-09 17:00:04] [INFO] [TransactionParser]: Successfully parsed 3 transactions from text input
+[2026-09-09 17:00:04] [INFO] [TransactionParser]: Successfully parsed 5 transactions from text input
+[2026-09-09 17:00:05] [INFO] [CLI]: Initializing PhonePe Expense Tracker CLI....
+[2026-09-09 17:00:05] [DEBUG] [TransactionParser]: Line 9 skipped: Insufficient columns (2/3) in line: '2026-08-09, Invalid Line Without Comma'
+[2026-09-09 17:00:05] [INFO] [TransactionParser]: Successfully parsed 24 transactions from text input
+[2026-09-09 17:00:05] [INFO] [CLI]: Summary data written to A:\Indian_AI_Production_5\phonepe_expense_tracker\data\summary.json
+[2026-09-09 17:02:20] [DEBUG] [TransactionParser]: Line 5 skipped: Insufficient columns (2/3) in line: '2026-08-09, Invalid Line Without Comma'
+[2026-09-09 17:02:20] [INFO] [TransactionParser]: Successfully parsed 3 transactions from text input
+[2026-09-09 17:02:20] [INFO] [TransactionParser]: Successfully parsed 5 transactions from text input
+[2026-09-09 17:03:45] [DEBUG] [TransactionParser]: Line 5 skipped: Insufficient columns (2/3) in line: '2026-08-09, Invalid Line Without Comma'
+[2026-09-09 17:03:45] [INFO] [TransactionParser]: Successfully parsed 3 transactions from text input
+[2026-09-09 17:03:45] [INFO] [TransactionParser]: Successfully parsed 5 transactions from text input
+[2026-09-09 17:03:45] [INFO] [CLI]: Initializing PhonePe Expense Tracker CLI....
+[2026-09-09 17:03:45] [DEBUG] [TransactionParser]: Line 9 skipped: Insufficient columns (2/3) in line: '2026-08-09, Invalid Line Without Comma'
+[2026-09-09 17:03:45] [INFO] [TransactionParser]: Successfully parsed 24 transactions from text input
+[2026-09-09 17:03:45] [INFO] [CLI]: Summary data written to A:\Indian_AI_Production_5\phonepe_expense_tracker\data\summary.json
+[2026-09-09 17:04:47] [INFO] [DesktopMain]: Initializing PhonePe Expense Tracker Desktop App...
+[2026-09-09 17:04:47] [INFO] [DesktopMain]: Running in PRODUCTION mode with local server: http://127.0.0.1:53281
+[2026-09-09 17:04:49] [INFO] [DesktopBridge]: Loading demo transaction data
+[2026-09-09 17:04:49] [DEBUG] [TransactionParser]: Line 9 skipped: Insufficient columns (2/3) in line: '2026-08-09, Invalid Line Without Comma'
+[2026-09-09 17:04:49] [INFO] [TransactionParser]: Successfully parsed 24 transactions from text input

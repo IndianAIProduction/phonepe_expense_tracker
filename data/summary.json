@@ -1,11 +1,403 @@
 {
-    "total_spent": 15346.0,
-    "category_totals": {
-        "Food": 2480.0,
-        "Travel": 2320.0,
-        "Shopping": 5498.0,
-        "Bills": 3608.0,
-        "Health": 1440.0
+  "total_spent": 15346.0,
+  "budget_limit": 20000.0,
+  "remaining_budget": 4654.0,
+  "is_over_budget": false,
+  "over_budget_amount": 0.0,
+  "category_totals": {
+    "Food": 2480.0,
+    "Travel": 2320.0,
+    "Shopping": 5738.0,
+    "Bills": 3608.0,
+    "Health": 1200.0
+  },
+  "categories": [
+    {
+      "category": "Shopping",
+      "amount": 5738.0,
+      "percentage": 37.4,
+      "count": 5,
+      "color": "#8b5cf6"
     },
-    "is_over_budget": true
+    {
+      "category": "Bills",
+      "amount": 3608.0,
+      "percentage": 23.5,
+      "count": 5,
+      "color": "#3b82f6"
+    },
+    {
+      "category": "Food",
+      "amount": 2480.0,
+      "percentage": 16.2,
+      "count": 7,
+      "color": "#10b981"
+    },
+    {
+      "category": "Travel",
+      "amount": 2320.0,
+      "percentage": 15.1,
+      "count": 6,
+      "color": "#f59e0b"
+    },
+    {
+      "category": "Health",
+      "amount": 1200.0,
+      "percentage": 7.8,
+      "count": 1,
+      "color": "#ef4444"
+    }
+  ],
+  "top_category": {
+    "name": "Shopping",
+    "amount": 5738.0,
+    "percentage": 37.4
+  },
+  "daily_trends": [
+    {
+      "date": "2026-08-01",
+      "amount": 350.0,
+      "count": 1
+    },
+    {
+      "date": "2026-08-02",
+      "amount": 180.0,
+      "count": 1
+    },
+    {
+      "date": "2026-08-03",
+      "amount": 1450.0,
+      "count": 1
+    },
+    {
+      "date": "2026-08-04",
+      "amount": 220.0,
+      "count": 1
+    },
+    {
+      "date": "2026-08-05",
+      "amount": 600.0,
+      "count": 1
+    },
+    {
+      "date": "2026-08-06",
+      "amount": 999.0,
+      "count": 1
+    },
+    {
+      "date": "2026-08-07",
+      "amount": 60.0,
+      "count": 1
+    },
+    {
+      "date": "2026-08-08",
+      "amount": 299.0,
+      "count": 1
+    },
+    {
+      "date": "2026-08-10",
+      "amount": 40.0,
+      "count": 1
+    },
+    {
+      "date": "2026-08-11",
+      "amount": 1299.0,
+      "count": 1
+    },
+    {
+      "date": "2026-08-12",
+      "amount": 215.0,
+      "count": 1
+    },
+    {
+      "date": "2026-08-13",
+      "amount": 1850.0,
+      "count": 1
+    },
+    {
+      "date": "2026-08-14",
+      "amount": 850.0,
+      "count": 1
+    },
+    {
+      "date": "2026-08-15",
+      "amount": 799.0,
+      "count": 1
+    },
+    {
+      "date": "2026-08-16",
+      "amount": 500.0,
+      "count": 1
+    },
+    {
+      "date": "2026-08-17",
+      "amount": 1750.0,
+      "count": 1
+    },
+    {
+      "date": "2026-08-18",
+      "amount": 75.0,
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "amount": 420.0,
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "amount": 350.0,
+      "count": 1
+    },
+    {
+      "date": "2026-08-21",
+      "amount": 750.0,
+      "count": 1
+    },
+    {
+      "date": "2026-08-22",
+      "amount": 240.0,
+      "count": 1
+    },
+    {
+      "date": "2026-08-23",
+      "amount": 540.0,
+      "count": 1
+    },
+    {
+      "date": "2026-08-24",
+      "amount": 310.0,
+      "count": 1
+    },
+    {
+      "date": "2026-08-25",
+      "amount": 1200.0,
+      "count": 1
+    }
+  ],
+  "transactions": [
+    {
+      "id": "txn-1-066688",
+      "date": "2026-08-01",
+      "merchant": "Swiggy",
+      "amount": 350.0,
+      "category": "Food",
+      "type": "DEBIT",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "txn-2-bdabf2",
+      "date": "2026-08-02",
+      "merchant": "Uber Ride",
+      "amount": 180.0,
+      "category": "Travel",
+      "type": "DEBIT",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "txn-3-e9b26b",
+      "date": "2026-08-03",
+      "merchant": "DMart Supermarket",
+      "amount": 1450.0,
+      "category": "Shopping",
+      "type": "DEBIT",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "txn-4-1b7a87",
+      "date": "2026-08-04",
+      "merchant": "Zomato Food",
+      "amount": 220.0,
+      "category": "Food",
+      "type": "DEBIT",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "txn-5-0f0433",
+      "date": "2026-08-05",
+      "merchant": "Petrol Pump HPCL",
+      "amount": 600.0,
+      "category": "Travel",
+      "type": "DEBIT",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "txn-6-ee0903",
+      "date": "2026-08-06",
+      "merchant": "Amazon Purchase",
+      "amount": 999.0,
+      "category": "Shopping",
+      "type": "DEBIT",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "txn-7-53789f",
+      "date": "2026-08-07",
+      "merchant": "Canteen Snacks",
+      "amount": 60.0,
+      "category": "Food",
+      "type": "DEBIT",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "txn-8-6f29f3",
+      "date": "2026-08-08",
+      "merchant": "Mobile Recharge Jio",
+      "amount": 299.0,
+      "category": "Bills",
+      "type": "DEBIT",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "txn-10-ff1f57",
+      "date": "2026-08-10",
+      "merchant": "Tea Stall",
+      "amount": 40.0,
+      "category": "Food",
+      "type": "DEBIT",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "txn-11-fc98b5",
+      "date": "2026-08-11",
+      "merchant": "Flipkart Order",
+      "amount": 1299.0,
+      "category": "Shopping",
+      "type": "DEBIT",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "txn-12-86bf11",
+      "date": "2026-08-12",
+      "merchant": "Ola Mini Ride",
+      "amount": 215.0,
+      "category": "Travel",
+      "type": "DEBIT",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "txn-13-17d0ac",
+      "date": "2026-08-13",
+      "merchant": "Electricity Bill Bescom",
+      "amount": 1850.0,
+      "category": "Bills",
+      "type": "DEBIT",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "txn-14-e4a16f",
+      "date": "2026-08-14",
+      "merchant": "Restaurant Dinner",
+      "amount": 850.0,
+      "category": "Food",
+      "type": "DEBIT",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "txn-15-eb49d6",
+      "date": "2026-08-15",
+      "merchant": "Broadband Wifi Bill Airtel",
+      "amount": 799.0,
+      "category": "Bills",
+      "type": "DEBIT",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "txn-16-90ea0e",
+      "date": "2026-08-16",
+      "merchant": "Metro Card Recharge",
+      "amount": 500.0,
+      "category": "Travel",
+      "type": "DEBIT",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "txn-17-0006ae",
+      "date": "2026-08-17",
+      "merchant": "Myntra Fashion Shopping",
+      "amount": 1750.0,
+      "category": "Shopping",
+      "type": "DEBIT",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "txn-18-de26a5",
+      "date": "2026-08-18",
+      "merchant": "Rapido Bike Taxi",
+      "amount": 75.0,
+      "category": "Travel",
+      "type": "DEBIT",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "txn-19-5952c3",
+      "date": "2026-08-19",
+      "merchant": "Swiggy Instamart",
+      "amount": 420.0,
+      "category": "Food",
+      "type": "DEBIT",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "txn-20-53af8d",
+      "date": "2026-08-20",
+      "merchant": "Cinema Movie Ticket",
+      "amount": 350.0,
+      "category": "Bills",
+      "type": "DEBIT",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "txn-21-f9ca0d",
+      "date": "2026-08-21",
+      "merchant": "Petrol Pump BPCL",
+      "amount": 750.0,
+      "category": "Travel",
+      "type": "DEBIT",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "txn-22-67c5c6",
+      "date": "2026-08-22",
+      "merchant": "Pharmacy Medical Store",
+      "amount": 240.0,
+      "category": "Shopping",
+      "type": "DEBIT",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "txn-23-1f6980",
+      "date": "2026-08-23",
+      "merchant": "Zomato Delivery",
+      "amount": 540.0,
+      "category": "Food",
+      "type": "DEBIT",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "txn-24-58e036",
+      "date": "2026-08-24",
+      "merchant": "Water Bill Payment",
+      "amount": 310.0,
+      "category": "Bills",
+      "type": "DEBIT",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "txn-25-a37919",
+      "date": "2026-08-25",
+      "merchant": "Gym Membership",
+      "amount": 1200.0,
+      "category": "Health",
+      "type": "DEBIT",
+      "status": "SUCCESS"
+    }
+  ],
+  "insights": [
+    "\u2705 **Budget on Track**: You have \u20b94,654.00 remaining (76.7% of budget used).",
+    "\ud83c\udff7\ufe0f **Top Spend Category**: **Shopping** represents the highest expense at \u20b95,738.00 (37.4% of total).",
+    "\ud83d\udcca **Concentration**: **Shopping** and **Bills** together account for 60.9% of your spending.",
+    "\ud83d\udcc5 **Peak Spending Day**: 2026-08-13 had the highest spending of \u20b91,850.00 across 1 transaction(s)."
+  ],
+  "total_transactions": 24
 }

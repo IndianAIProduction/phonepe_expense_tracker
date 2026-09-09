@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --brand-purple: #5f259f;
+    --brand-glow: rgba(95, 37, 159, 0.35);
+  }
+
+  /* Custom Modern Scrollbars */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #0b0f19;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #2a3447;
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #5f259f;
+  }
+}
+
+/* Glassmorphism Styles */
+.glass-card {
+  background: rgba(17, 24, 39, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-card-hover {
+  transition: all 0.25s ease-in-out;
+}
+.glass-card-hover:hover {
+  background: rgba(26, 35, 54, 0.85);
+  border-color: rgba(139, 92, 246, 0.3);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px -5px rgba(95, 37, 159, 0.15);
+}
+
+.glass-panel {
+  background: rgba(11, 15, 25, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+/* Purple Glow Accents */
+.glow-purple {
+  box-shadow: 0 0 35px -5px rgba(95, 37, 159, 0.4);
+}
+
+.glow-danger {
+  box-shadow: 0 0 30px -5px rgba(239, 68, 68, 0.3);
+}
+
+.glow-success {
+  box-shadow: 0 0 30px -5px rgba(16, 185, 129, 0.3);
+}

@@ -1,10 +1,29 @@
 # Python-generated files
 __pycache__/
-*.py[oc]
-build/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+*.egg-info/
 dist/
-wheels/
-*.egg-info
+build/
+*.spec
 
 # Virtual environments
-.venv
+.venv/
+env/
+venv/
+
+# Node & Frontend build
+frontend/node_modules/
+frontend/dist/
+.npm
+npm-debug.log*
+
+# Logs & runtime data
+logs/*.log
+!logs/.gitkeep
+
+# Environment variables
+.env
+.env.local
