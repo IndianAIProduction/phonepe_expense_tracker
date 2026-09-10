@@ -1,0 +1,87 @@
+# Prompt 1:
+
+you are expert ui/ux and fronend developr.
+
+I have created 'PhonePe Expense Tracker' cli base app.
+
+Now I want ui where I can upload tracsction.txt and I will expect best ui/ux to show the my expence analystics.
+
+so suggest best tech stack to create production/ industry grade frontend app.
+
+CLI result:
+
+==================================================
+ 📊 PHONEPE EXPENSE ANALYSIS REPORT 📊
+==================================================
+
+Total Money Spent: ₹15346.00
+
+Spending Breakdown by Category:
+     Food         : ₹2480.00
+     Travel       : ₹2320.00
+     Shopping     : ₹5498.00
+     Bills        : ₹3608.00
+     Health       : ₹1440.00
+--------------------------------------------------
+
+⚠️ WARNING: You have exceeded your monthly budget limit of ₹10000.0
+==================================================
+
+(phonepe-expense-tracker) PS A:\Indian_AI_Production_5\phonepe_expense_tracker>
+
+
+# Prompt 2:
+I want desktop base app, so think for it and suggest best paln
+
+
+# Prompt 3:
+lest go with option one and create detail architecture, keep frontend and backend seperate folder structure, don't start codding 
+
+# Prompt 4:
+start implementation with 100% accuracy, and don't write unwanted code, code should be optimise and it should be easy to undersand.
+
+final project should be industry grade.
+
+do final code review as expert developer and do testing.
+
+# Prompt 5:
+I have launched app using 'python build_desktop.py' but my app ui was not responding, I have shared screenshot of app to find the issue.
+
+also go through terminal to get exact issue
+
+# Prompt 6:
+still app not responding , checke terminal logs and screenshot. 
+
+Identify issue and launch app by yourself then do test and once the app start working. let us know.
+
+# Prompt 7:
+app is working as expected but need to add real phonepe app logo at top
+
+# Prompt 8:
+i have store logo at A:\Indian_AI_Production_5\phonepe_expense_tracker\image.png, use this logo for phonepe, you can place it where you wnt in project folder
+
+# Prompt 9:
+great,
+
+now add new feature in ui, that is app build by 'Indian Ai Production' company and also add copy rights
+
+# Prompt 10:
+now create .exe file, so we can share this app with any one by single file
+
+# Prompt 11:
+is this A:\Indian_AI_Production_5\phonepe_expense_tracker\src requred or need to remove
+
+# Prompt 12:
+can you analyse entire project a\nd find unwanted files and remove it
+
+# Prompt 13:
+is this file A:\Indian_AI_Production_5\phonepe_expense_tracker\image.png should be here or need to remove
+
+# Prompt 14:
+what about this A:\Indian_AI_Production_5\phonepe_expense_tracker\phonepe.ico
+
+# Prompt 15:
+keep inside frontend/src/assets/
+
+# Prompt 16:
+are those file should be here or at there best places A:\Indian_AI_Production_5\phonepe_expense_tracker\build_desktop.py, A:\Indian_AI_Production_5\phonepe_expense_tracker\build_desktop.py, A:\Indian_AI_Production_5\phonepe_expense_tracker\package_exe.py
